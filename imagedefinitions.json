@@ -1,0 +1,6 @@
+[
+    {
+        "name": "metric-pop-container",
+        "imageUri": "356566070122.dkr.ecr.us-west-2.amazonaws.com/metricpopulator:v6"
+    }
+]
