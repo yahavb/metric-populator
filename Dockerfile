@@ -10,5 +10,5 @@ RUN apt-get update \
 RUN pip install requests numpy boto3
 
 ADD report_current_gs_count.py /report_current_gs_count.py
-
+RUN chmod a+x /report_current_gs_count.py
 CMD /report_current_gs_count.py
