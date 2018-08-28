@@ -50,5 +50,6 @@ if __name__ == '__main__':
     else:
       B=-1*A 
     sample=int(B)/int(scalevalue)
+    print("region:"+region+",namespace:"+namespace+",metric:"+metric+",sample:"+str(sample))
     populate_metric_by_region(region,namespace,metric,sample)
     time.sleep(int(freq))
